@@ -35,7 +35,7 @@ Using ```cmudict```, we can break down these words into phonemes (their pronunci
 
 For try/lie, because the last vowel sounds (AY1) are matching, try/lie rhyme. Same goes for shape/cake
 
-How To Determine Rhyme In Code?
+### How To Determine Rhyme In Code?
 1. Extract the last word of a sentence
 2. Get the phonemes of the word via cmudict
 3. Check if the phonemes of the word match
@@ -45,7 +45,7 @@ How To Determine Rhyme In Code?
 
 The issue with the previous method of determining rhyme is that the rhyme checking relies on the exact matching of phonemes. However, there are many words that also rhyme that don't necessarily have the same last vowel pronunciation (i.e fun/one)
 
-How To Solve?
+### How To Solve?
 
 This is going to sound a little trippy but, since fun and one do rhyme and are close in pronunciation and length. We can therefore transform each character in 'fun' to eventually turn it into 'one' in a short amount of transformations.
 
