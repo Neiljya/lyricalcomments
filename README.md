@@ -21,7 +21,7 @@ In this case, we'll define a rhyme as having at least the same last vowel sound 
 
 Ex: Try/Lie or Shape/Cake
 
-Using cmudict, we can break down these words into phonemes (their pronunciations)
+Using ```cmudict```, we can break down these words into phonemes (their pronunciations)
 
 ```
 'try' = /T R AY1/
